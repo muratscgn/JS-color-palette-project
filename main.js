@@ -22,7 +22,7 @@ function newHexColorInput(itemCount) {
       type="text" 
       minlength="7" maxlength="7" 
       class="form-control"
-      name="color1-${itemCount}">
+      name="color-${itemCount}">
   `
   return newDivElement
 }
